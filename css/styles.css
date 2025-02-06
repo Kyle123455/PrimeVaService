@@ -305,3 +305,24 @@ footer p {
 .fade-in.delay-2 {
     animation-delay: 1s;
 }
+.service-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.service-card {
+    flex: 1 1 300px;
+    max-width: 300px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 250px;
+}
