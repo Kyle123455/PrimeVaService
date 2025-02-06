@@ -298,3 +298,10 @@ footer p {
 .fade-in {
     animation: fadeIn 1.5s ease-in-out;
 }
+.fade-in.delay-1 {
+    animation-delay: 0.5s;
+}
+
+.fade-in.delay-2 {
+    animation-delay: 1s;
+}
