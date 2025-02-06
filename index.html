@@ -89,5 +89,22 @@
     </footer>
 
     <script src="js/script.js"></script>
+    <script>
+    // Initialize Swiper
+    var swiper = new Swiper('.testimonial-carousel', {
+        loop: true, // Enable looping
+        pagination: {
+            el: '.swiper-pagination', // Pagination dots
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next', // Next button
+            prevEl: '.swiper-button-prev', // Previous button
+        },
+        autoplay: {
+            delay: 5000, // Auto-slide every 5 seconds
+        },
+    });
+</script>
 </body>
 </html>
