@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Show the first slide initially
     showSlide(currentSlide);
 
-    // Auto-slide every 4 seconds
+    // Auto-slide every 1 seconds
     setInterval(nextSlide, 4000);
 });
 
