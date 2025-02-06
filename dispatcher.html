@@ -6,6 +6,59 @@
     <title>PrimeBusinessSolutions - Dispatcher</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* General reset and body styling */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            display: flex;
+            justify-content: center; /* Centers content horizontally */
+            align-items: center; /* Centers content vertically */
+            min-height: 100vh; /* Ensures the body takes up the full viewport height */
+        }
+
+        /* Container for the cards */
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px; /* Adds spacing between cards */
+            justify-content: center; /* Centers cards horizontally */
+            padding: 20px; /* Adds some padding around the container */
+            max-width: 1200px; /* Optional: Limits the maximum width of the container */
+        }
+
+        /* Style for each card */
+        .card {
+            flex: 1 1 300px; /* Flex-grow, flex-shrink, and flex-basis */
+            max-width: 300px; /* Optional: Set a max width for each card */
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between; /* Aligns content evenly */
+            min-height: 250px; /* Optional: Set a minimum height */
+        }
+
+        /* Optional: Add a fade-in animation */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        .fade-in {
+            animation: fadeIn 1.5s ease-in-out;
+        }
+    </style>
 </head>
 <body>
     <header>
