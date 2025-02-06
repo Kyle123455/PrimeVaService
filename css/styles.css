@@ -364,3 +364,11 @@ footer p {
     opacity: 1;
     transform: translateY(0);
 }
+.testimonials {
+    border: 2px solid red; /* Highlight the section */
+}
+
+.testimonial-slide {
+    border: 2px solid blue; /* Highlight each slide */
+    display: block; /* Ensure slides are visible */
+}
