@@ -20,3 +20,20 @@ document.addEventListener('DOMContentLoaded', function () {
     // Auto-slide every 4 seconds
     setInterval(nextSlide, 4000);
 });
+
+<!-- Link to Swiper CSS -->
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+<!-- Link to Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper('.testimonial-carousel', {
+        loop: true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+    });
+</script>
